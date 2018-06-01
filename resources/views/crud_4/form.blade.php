@@ -41,7 +41,7 @@
             <div class="form-group row">
                 <div class="col-md-3 col-lg-2"></div>
                 <div class="col-md-4">
-                    <a href="{{url('laravel-crud-image-gallery')}}" class="btn btn-danger">
+                    <a href="{{url('gallery')}}" class="btn btn-danger">
                         Back</a>
                     {!! Form::button("Save",["type" => "submit","class"=>"btn
                 btn-primary"])!!}

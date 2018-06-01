@@ -13,7 +13,7 @@
 </head>
 <body style="padding-top: 100px;padding-bottom: 50px;background: whitesmoke">
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-info">
-    <a class="navbar-brand" target="_blank" href="http://www.codovel.com">CODOVEL.COM</a>
+    <a class="navbar-brand" href="#">CRUD</a>
     @yield('nav')
 </nav>
 @yield('content')

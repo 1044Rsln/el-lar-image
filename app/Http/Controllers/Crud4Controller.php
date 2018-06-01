@@ -33,14 +33,14 @@ class Crud4Controller extends Controller
             }
             $image->description = $request->description;
             $image->save();
-            return redirect('/laravel-crud-image-gallery');
+            return redirect('/gallery');
         }
     }
 
     public function delete($id)
     {
         Image::destroy($id);
-        return redirect('/laravel-crud-image-gallery');
+        return redirect('/gallery');
     }
 
     public function update(Request $request, $id)
@@ -67,7 +67,7 @@ class Crud4Controller extends Controller
             }
             $image->description = $request->description;
             $image->save();
-            return redirect('/laravel-crud-image-gallery');
+            return redirect('/gallery');
         }
     }
 }
